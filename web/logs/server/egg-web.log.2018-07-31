@@ -1,0 +1,357 @@
+2018-07-29 00:00:00,597 INFO 23994 [egg-logrotator] app logger reload: got log-reload message
+2018-07-30 14:58:02,110 INFO 1044 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 14:58:02,236 INFO 1044 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 14:58:02,236 INFO 1044 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 14:58:02,975 INFO 1044 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 14:58:02,987 INFO 1044 [egg-security] use csrf middleware
+2018-07-30 14:58:02,997 INFO 1044 [egg-security] use methodnoallow middleware
+2018-07-30 14:58:03,011 INFO 1044 [egg-security] use noopen middleware
+2018-07-30 14:58:03,011 INFO 1044 [egg-security] use nosniff middleware
+2018-07-30 14:58:03,020 INFO 1044 [egg-security] use xssProtection middleware
+2018-07-30 14:58:03,032 INFO 1044 [egg-security] use xframe middleware
+2018-07-30 14:58:03,053 INFO 1044 [egg-security] use dta middleware
+2018-07-30 14:58:03,053 INFO 1044 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 14:58:03,141 INFO 1044 [egg:core] dump config after load, 4ms
+2018-07-30 14:58:03,155 INFO 1044 [egg-watcher:app] watcher start success
+2018-07-30 14:58:03,186 INFO 1044 [egg:core] dump config after ready, 3ms
+2018-07-30 14:59:13,794 INFO 1045 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 14:59:13,884 INFO 1045 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 14:59:13,884 INFO 1045 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 14:59:14,323 INFO 1045 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 14:59:14,334 INFO 1045 [egg-security] use csrf middleware
+2018-07-30 14:59:14,345 INFO 1045 [egg-security] use methodnoallow middleware
+2018-07-30 14:59:14,347 INFO 1045 [egg-security] use noopen middleware
+2018-07-30 14:59:14,348 INFO 1045 [egg-security] use nosniff middleware
+2018-07-30 14:59:14,357 INFO 1045 [egg-security] use xssProtection middleware
+2018-07-30 14:59:14,369 INFO 1045 [egg-security] use xframe middleware
+2018-07-30 14:59:14,379 INFO 1045 [egg-security] use dta middleware
+2018-07-30 14:59:14,379 INFO 1045 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 14:59:14,422 INFO 1045 [egg:core] dump config after load, 4ms
+2018-07-30 14:59:14,432 INFO 1045 [egg-watcher:app] watcher start success
+2018-07-30 14:59:14,478 INFO 1045 [egg:core] dump config after ready, 2ms
+2018-07-30 14:59:14,985 INFO 1046 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 14:59:15,020 INFO 1046 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 14:59:15,020 INFO 1046 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 14:59:15,055 INFO 1046 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 14:59:15,057 INFO 1046 [egg-security] use csrf middleware
+2018-07-30 14:59:15,058 INFO 1046 [egg-security] use methodnoallow middleware
+2018-07-30 14:59:15,058 INFO 1046 [egg-security] use noopen middleware
+2018-07-30 14:59:15,059 INFO 1046 [egg-security] use nosniff middleware
+2018-07-30 14:59:15,059 INFO 1046 [egg-security] use xssProtection middleware
+2018-07-30 14:59:15,059 INFO 1046 [egg-security] use xframe middleware
+2018-07-30 14:59:15,059 INFO 1046 [egg-security] use dta middleware
+2018-07-30 14:59:15,059 INFO 1046 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 14:59:15,068 INFO 1046 [egg:core] dump config after load, 5ms
+2018-07-30 14:59:15,086 INFO 1046 [egg-watcher:app] watcher start success
+2018-07-30 14:59:15,090 INFO 1046 [egg:core] dump config after ready, 3ms
+2018-07-30 14:59:36,724 INFO 1047 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 14:59:36,763 INFO 1047 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 14:59:36,764 INFO 1047 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 14:59:36,798 INFO 1047 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 14:59:36,804 INFO 1047 [egg-security] use csrf middleware
+2018-07-30 14:59:36,805 INFO 1047 [egg-security] use methodnoallow middleware
+2018-07-30 14:59:36,805 INFO 1047 [egg-security] use noopen middleware
+2018-07-30 14:59:36,806 INFO 1047 [egg-security] use nosniff middleware
+2018-07-30 14:59:36,806 INFO 1047 [egg-security] use xssProtection middleware
+2018-07-30 14:59:36,806 INFO 1047 [egg-security] use xframe middleware
+2018-07-30 14:59:36,807 INFO 1047 [egg-security] use dta middleware
+2018-07-30 14:59:36,807 INFO 1047 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 14:59:36,819 INFO 1047 [egg:core] dump config after load, 8ms
+2018-07-30 14:59:36,829 INFO 1047 [egg-watcher:app] watcher start success
+2018-07-30 14:59:36,859 INFO 1047 [egg:core] dump config after ready, 28ms
+2018-07-30 14:59:37,373 INFO 1048 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 14:59:37,408 INFO 1048 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 14:59:37,408 INFO 1048 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 14:59:37,444 INFO 1048 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 14:59:37,446 INFO 1048 [egg-security] use csrf middleware
+2018-07-30 14:59:37,447 INFO 1048 [egg-security] use methodnoallow middleware
+2018-07-30 14:59:37,447 INFO 1048 [egg-security] use noopen middleware
+2018-07-30 14:59:37,448 INFO 1048 [egg-security] use nosniff middleware
+2018-07-30 14:59:37,448 INFO 1048 [egg-security] use xssProtection middleware
+2018-07-30 14:59:37,448 INFO 1048 [egg-security] use xframe middleware
+2018-07-30 14:59:37,448 INFO 1048 [egg-security] use dta middleware
+2018-07-30 14:59:37,448 INFO 1048 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 14:59:37,456 INFO 1048 [egg:core] dump config after load, 4ms
+2018-07-30 14:59:37,474 INFO 1048 [egg-watcher:app] watcher start success
+2018-07-30 14:59:37,478 INFO 1048 [egg:core] dump config after ready, 3ms
+2018-07-30 15:55:39,753 INFO 1121 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 15:55:39,933 INFO 1121 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 15:55:39,933 INFO 1121 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 15:55:40,559 INFO 1121 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 15:55:40,571 INFO 1121 [egg-security] use csrf middleware
+2018-07-30 15:55:40,581 INFO 1121 [egg-security] use methodnoallow middleware
+2018-07-30 15:55:40,595 INFO 1121 [egg-security] use noopen middleware
+2018-07-30 15:55:40,596 INFO 1121 [egg-security] use nosniff middleware
+2018-07-30 15:55:40,604 INFO 1121 [egg-security] use xssProtection middleware
+2018-07-30 15:55:40,616 INFO 1121 [egg-security] use xframe middleware
+2018-07-30 15:55:40,637 INFO 1121 [egg-security] use dta middleware
+2018-07-30 15:55:40,637 INFO 1121 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 15:55:40,704 INFO 1121 [egg:core] dump config after load, 5ms
+2018-07-30 15:55:40,714 INFO 1121 [egg-watcher:app] watcher start success
+2018-07-30 15:55:40,737 INFO 1121 [egg:core] dump config after ready, 3ms
+2018-07-30 15:55:52,376 INFO 1122 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 15:55:52,519 INFO 1122 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 15:55:52,519 INFO 1122 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 15:55:53,004 INFO 1122 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 15:55:53,016 INFO 1122 [egg-security] use csrf middleware
+2018-07-30 15:55:53,026 INFO 1122 [egg-security] use methodnoallow middleware
+2018-07-30 15:55:53,040 INFO 1122 [egg-security] use noopen middleware
+2018-07-30 15:55:53,040 INFO 1122 [egg-security] use nosniff middleware
+2018-07-30 15:55:53,049 INFO 1122 [egg-security] use xssProtection middleware
+2018-07-30 15:55:53,061 INFO 1122 [egg-security] use xframe middleware
+2018-07-30 15:55:53,071 INFO 1122 [egg-security] use dta middleware
+2018-07-30 15:55:53,071 INFO 1122 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 15:55:53,126 INFO 1122 [egg:core] dump config after load, 4ms
+2018-07-30 15:55:53,138 INFO 1122 [egg-watcher:app] watcher start success
+2018-07-30 15:55:52,376 INFO 1123 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 15:55:52,519 INFO 1123 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 15:55:52,519 INFO 1123 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 15:55:53,004 INFO 1123 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 15:55:53,016 INFO 1123 [egg-security] use csrf middleware
+2018-07-30 15:55:53,026 INFO 1123 [egg-security] use methodnoallow middleware
+2018-07-30 15:55:53,040 INFO 1123 [egg-security] use noopen middleware
+2018-07-30 15:55:53,040 INFO 1123 [egg-security] use nosniff middleware
+2018-07-30 15:55:53,049 INFO 1123 [egg-security] use xssProtection middleware
+2018-07-30 15:55:53,061 INFO 1123 [egg-security] use xframe middleware
+2018-07-30 15:55:53,071 INFO 1123 [egg-security] use dta middleware
+2018-07-30 15:55:53,071 INFO 1123 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 15:55:53,126 INFO 1123 [egg:core] dump config after load, 4ms
+2018-07-30 15:55:53,138 INFO 1123 [egg-watcher:app] watcher start success
+2018-07-30 15:55:53,142 INFO 1123 [egg:core] dump config after ready, 3ms
+2018-07-30 15:57:56,884 INFO 1128 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 15:57:57,030 INFO 1128 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 15:57:57,030 INFO 1128 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 15:57:57,610 INFO 1128 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 15:57:57,622 INFO 1128 [egg-security] use csrf middleware
+2018-07-30 15:57:57,632 INFO 1128 [egg-security] use methodnoallow middleware
+2018-07-30 15:57:57,646 INFO 1128 [egg-security] use noopen middleware
+2018-07-30 15:57:57,646 INFO 1128 [egg-security] use nosniff middleware
+2018-07-30 15:57:57,655 INFO 1128 [egg-security] use xssProtection middleware
+2018-07-30 15:57:57,667 INFO 1128 [egg-security] use xframe middleware
+2018-07-30 15:57:57,677 INFO 1128 [egg-security] use dta middleware
+2018-07-30 15:57:57,677 INFO 1128 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 15:57:57,743 INFO 1128 [egg:core] dump config after load, 4ms
+2018-07-30 15:57:57,754 INFO 1128 [egg-watcher:app] watcher start success
+2018-07-30 15:57:57,777 INFO 1128 [egg:core] dump config after ready, 3ms
+2018-07-30 16:01:21,070 INFO 1136 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:01:21,283 INFO 1136 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:01:21,283 INFO 1136 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:01:21,987 INFO 1136 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:01:22,021 INFO 1136 [egg-security] use csrf middleware
+2018-07-30 16:01:22,031 INFO 1136 [egg-security] use methodnoallow middleware
+2018-07-30 16:01:22,045 INFO 1136 [egg-security] use noopen middleware
+2018-07-30 16:01:22,046 INFO 1136 [egg-security] use nosniff middleware
+2018-07-30 16:01:22,054 INFO 1136 [egg-security] use xssProtection middleware
+2018-07-30 16:01:22,066 INFO 1136 [egg-security] use xframe middleware
+2018-07-30 16:01:22,076 INFO 1136 [egg-security] use dta middleware
+2018-07-30 16:01:22,076 INFO 1136 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:01:22,144 INFO 1136 [egg:core] dump config after load, 6ms
+2018-07-30 16:01:22,155 INFO 1136 [egg-watcher:app] watcher start success
+2018-07-30 16:01:22,188 INFO 1136 [egg:core] dump config after ready, 3ms
+2018-07-30 16:01:22,714 INFO 1137 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:01:22,750 INFO 1137 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:01:22,750 INFO 1137 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:01:22,786 INFO 1137 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:01:22,789 INFO 1137 [egg-security] use csrf middleware
+2018-07-30 16:01:22,789 INFO 1137 [egg-security] use methodnoallow middleware
+2018-07-30 16:01:22,789 INFO 1137 [egg-security] use noopen middleware
+2018-07-30 16:01:22,790 INFO 1137 [egg-security] use nosniff middleware
+2018-07-30 16:01:22,790 INFO 1137 [egg-security] use xssProtection middleware
+2018-07-30 16:01:22,790 INFO 1137 [egg-security] use xframe middleware
+2018-07-30 16:01:22,791 INFO 1137 [egg-security] use dta middleware
+2018-07-30 16:01:22,791 INFO 1137 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:01:22,799 INFO 1137 [egg:core] dump config after load, 4ms
+2018-07-30 16:01:22,817 INFO 1137 [egg-watcher:app] watcher start success
+2018-07-30 16:01:22,822 INFO 1137 [egg:core] dump config after ready, 3ms
+2018-07-30 16:01:46,449 INFO 1140 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:01:46,489 INFO 1140 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:01:46,490 INFO 1140 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:01:46,531 INFO 1140 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:01:46,533 INFO 1140 [egg-security] use csrf middleware
+2018-07-30 16:01:46,534 INFO 1140 [egg-security] use methodnoallow middleware
+2018-07-30 16:01:46,534 INFO 1140 [egg-security] use noopen middleware
+2018-07-30 16:01:46,535 INFO 1140 [egg-security] use nosniff middleware
+2018-07-30 16:01:46,535 INFO 1140 [egg-security] use xssProtection middleware
+2018-07-30 16:01:46,535 INFO 1140 [egg-security] use xframe middleware
+2018-07-30 16:01:46,536 INFO 1140 [egg-security] use dta middleware
+2018-07-30 16:01:46,536 INFO 1140 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:01:46,546 INFO 1140 [egg:core] dump config after load, 6ms
+2018-07-30 16:01:46,563 INFO 1140 [egg-watcher:app] watcher start success
+2018-07-30 16:01:46,568 INFO 1140 [egg:core] dump config after ready, 3ms
+2018-07-30 16:01:50,913 INFO 1143 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:01:50,950 INFO 1143 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:01:50,950 INFO 1143 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:01:50,983 INFO 1143 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:01:50,989 INFO 1143 [egg-security] use csrf middleware
+2018-07-30 16:01:50,990 INFO 1143 [egg-security] use methodnoallow middleware
+2018-07-30 16:01:50,990 INFO 1143 [egg-security] use noopen middleware
+2018-07-30 16:01:50,991 INFO 1143 [egg-security] use nosniff middleware
+2018-07-30 16:01:50,991 INFO 1143 [egg-security] use xssProtection middleware
+2018-07-30 16:01:50,991 INFO 1143 [egg-security] use xframe middleware
+2018-07-30 16:01:50,991 INFO 1143 [egg-security] use dta middleware
+2018-07-30 16:01:50,991 INFO 1143 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:01:51,000 INFO 1143 [egg:core] dump config after load, 5ms
+2018-07-30 16:01:51,017 INFO 1143 [egg-watcher:app] watcher start success
+2018-07-30 16:01:51,021 INFO 1143 [egg:core] dump config after ready, 3ms
+2018-07-30 16:01:51,547 INFO 1144 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:01:51,583 INFO 1144 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:01:51,583 INFO 1144 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:01:51,616 INFO 1144 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:01:51,623 INFO 1144 [egg-security] use csrf middleware
+2018-07-30 16:01:51,624 INFO 1144 [egg-security] use methodnoallow middleware
+2018-07-30 16:01:51,624 INFO 1144 [egg-security] use noopen middleware
+2018-07-30 16:01:51,624 INFO 1144 [egg-security] use nosniff middleware
+2018-07-30 16:01:51,625 INFO 1144 [egg-security] use xssProtection middleware
+2018-07-30 16:01:51,625 INFO 1144 [egg-security] use xframe middleware
+2018-07-30 16:01:51,625 INFO 1144 [egg-security] use dta middleware
+2018-07-30 16:01:51,625 INFO 1144 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:01:51,634 INFO 1144 [egg:core] dump config after load, 4ms
+2018-07-30 16:01:51,652 INFO 1144 [egg-watcher:app] watcher start success
+2018-07-30 16:01:51,657 INFO 1144 [egg:core] dump config after ready, 3ms
+2018-07-30 16:02:01,735 INFO 1144 [egg-view-nunjucks] loading templates from ["/Users/wanglulu/Desktop/website/h5-editor/server/app/view"]
+2018-07-30 16:04:01,856 INFO 1154 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-30 16:04:01,894 INFO 1154 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-30 16:04:01,894 INFO 1154 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-30 16:04:01,928 INFO 1154 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-30 16:04:01,935 INFO 1154 [egg-security] use csrf middleware
+2018-07-30 16:04:01,936 INFO 1154 [egg-security] use methodnoallow middleware
+2018-07-30 16:04:01,936 INFO 1154 [egg-security] use noopen middleware
+2018-07-30 16:04:01,937 INFO 1154 [egg-security] use nosniff middleware
+2018-07-30 16:04:01,937 INFO 1154 [egg-security] use xssProtection middleware
+2018-07-30 16:04:01,937 INFO 1154 [egg-security] use xframe middleware
+2018-07-30 16:04:01,938 INFO 1154 [egg-security] use dta middleware
+2018-07-30 16:04:01,938 INFO 1154 [egg-security] compose 7 middlewares into one security middleware
+2018-07-30 16:04:01,946 INFO 1154 [egg:core] dump config after load, 5ms
+2018-07-30 16:04:01,963 INFO 1154 [egg-watcher:app] watcher start success
+2018-07-30 16:04:01,969 INFO 1154 [egg:core] dump config after ready, 3ms
+2018-07-30 16:04:12,338 INFO 1154 [egg-view-nunjucks] loading templates from ["/Users/wanglulu/Desktop/website/h5-editor/server/app/view"]
+2018-07-30 17:22:07,007 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-30 18:42:21,619 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-30 21:35:04,800 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-30 23:15:12,603 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-30 23:15:12,603 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 00:16:03,775 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-31 00:16:03,776 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 02:17:19,553 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 04:18:15,593 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-31 04:18:15,593 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 06:19:11,640 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-31 06:19:11,640 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 08:20:27,808 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 09:17:58,842 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-31 09:17:58,842 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 11:19:12,853 WARN 1154 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-31 11:19:12,853 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 12:20:50,022 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 13:40:23,119 WARN 1154 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 15:18:36,197 INFO 2382 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 15:18:36,345 INFO 2382 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 15:18:36,345 INFO 2382 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 15:18:37,052 INFO 2382 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 15:18:37,073 INFO 2382 [egg-security] use csrf middleware
+2018-07-31 15:18:37,083 INFO 2382 [egg-security] use methodnoallow middleware
+2018-07-31 15:18:37,097 INFO 2382 [egg-security] use noopen middleware
+2018-07-31 15:18:37,113 INFO 2382 [egg-security] use nosniff middleware
+2018-07-31 15:18:37,130 INFO 2382 [egg-security] use xssProtection middleware
+2018-07-31 15:18:37,141 INFO 2382 [egg-security] use xframe middleware
+2018-07-31 15:18:37,150 INFO 2382 [egg-security] use dta middleware
+2018-07-31 15:18:37,150 INFO 2382 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 15:18:37,233 INFO 2382 [egg:core] dump config after load, 19ms
+2018-07-31 15:18:37,247 INFO 2382 [egg-watcher:app] watcher start success
+2018-07-31 15:18:37,540 INFO 2382 [egg:core] dump config after ready, 3ms
+2018-07-31 17:14:08,136 WARN 2382 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-31 17:43:21,205 INFO 2687 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:43:21,363 INFO 2687 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:43:21,363 INFO 2687 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:43:22,044 INFO 2687 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:43:22,056 INFO 2687 [egg-security] use csrf middleware
+2018-07-31 17:43:22,066 INFO 2687 [egg-security] use methodnoallow middleware
+2018-07-31 17:43:22,113 INFO 2687 [egg-security] use noopen middleware
+2018-07-31 17:43:22,115 INFO 2687 [egg-security] use nosniff middleware
+2018-07-31 17:43:22,123 INFO 2687 [egg-security] use xssProtection middleware
+2018-07-31 17:43:22,135 INFO 2687 [egg-security] use xframe middleware
+2018-07-31 17:43:22,155 INFO 2687 [egg-security] use dta middleware
+2018-07-31 17:43:22,155 INFO 2687 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:43:22,265 INFO 2687 [egg:core] dump config after load, 35ms
+2018-07-31 17:43:22,277 INFO 2687 [egg-watcher:app] watcher start success
+2018-07-31 17:43:22,322 INFO 2687 [egg:core] dump config after ready, 3ms
+2018-07-31 17:43:27,781 INFO 2698 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:43:27,817 INFO 2698 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:43:27,817 INFO 2698 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:43:27,850 INFO 2698 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:43:27,855 INFO 2698 [egg-security] use csrf middleware
+2018-07-31 17:43:27,857 INFO 2698 [egg-security] use methodnoallow middleware
+2018-07-31 17:43:27,858 INFO 2698 [egg-security] use noopen middleware
+2018-07-31 17:43:27,858 INFO 2698 [egg-security] use nosniff middleware
+2018-07-31 17:43:27,858 INFO 2698 [egg-security] use xssProtection middleware
+2018-07-31 17:43:27,859 INFO 2698 [egg-security] use xframe middleware
+2018-07-31 17:43:27,859 INFO 2698 [egg-security] use dta middleware
+2018-07-31 17:43:27,859 INFO 2698 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:43:27,868 INFO 2698 [egg:core] dump config after load, 5ms
+2018-07-31 17:43:27,884 INFO 2698 [egg-watcher:app] watcher start success
+2018-07-31 17:43:27,889 INFO 2698 [egg:core] dump config after ready, 3ms
+2018-07-31 17:45:44,136 INFO 2715 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:45:44,357 INFO 2715 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:45:44,357 INFO 2715 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:45:45,197 INFO 2715 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:45:45,220 INFO 2715 [egg-security] use csrf middleware
+2018-07-31 17:45:45,230 INFO 2715 [egg-security] use methodnoallow middleware
+2018-07-31 17:45:45,244 INFO 2715 [egg-security] use noopen middleware
+2018-07-31 17:45:45,245 INFO 2715 [egg-security] use nosniff middleware
+2018-07-31 17:45:45,253 INFO 2715 [egg-security] use xssProtection middleware
+2018-07-31 17:45:45,265 INFO 2715 [egg-security] use xframe middleware
+2018-07-31 17:45:45,275 INFO 2715 [egg-security] use dta middleware
+2018-07-31 17:45:45,275 INFO 2715 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:45:45,429 INFO 2715 [egg:core] dump config after load, 70ms
+2018-07-31 17:45:45,441 INFO 2715 [egg-watcher:app] watcher start success
+2018-07-31 17:45:45,490 INFO 2715 [egg:core] dump config after ready, 29ms
+2018-07-31 17:45:50,522 INFO 2720 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:45:50,558 INFO 2720 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:45:50,558 INFO 2720 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:45:50,598 INFO 2720 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:45:50,600 INFO 2720 [egg-security] use csrf middleware
+2018-07-31 17:45:50,601 INFO 2720 [egg-security] use methodnoallow middleware
+2018-07-31 17:45:50,601 INFO 2720 [egg-security] use noopen middleware
+2018-07-31 17:45:50,601 INFO 2720 [egg-security] use nosniff middleware
+2018-07-31 17:45:50,602 INFO 2720 [egg-security] use xssProtection middleware
+2018-07-31 17:45:50,602 INFO 2720 [egg-security] use xframe middleware
+2018-07-31 17:45:50,602 INFO 2720 [egg-security] use dta middleware
+2018-07-31 17:45:50,602 INFO 2720 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:45:50,611 INFO 2720 [egg:core] dump config after load, 5ms
+2018-07-31 17:45:50,630 INFO 2720 [egg-watcher:app] watcher start success
+2018-07-31 17:45:50,634 INFO 2720 [egg:core] dump config after ready, 3ms
+2018-07-31 17:48:36,023 INFO 2727 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:48:36,060 INFO 2727 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:48:36,060 INFO 2727 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:48:36,097 INFO 2727 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:48:36,099 INFO 2727 [egg-security] use csrf middleware
+2018-07-31 17:48:36,100 INFO 2727 [egg-security] use methodnoallow middleware
+2018-07-31 17:48:36,100 INFO 2727 [egg-security] use noopen middleware
+2018-07-31 17:48:36,101 INFO 2727 [egg-security] use nosniff middleware
+2018-07-31 17:48:36,101 INFO 2727 [egg-security] use xssProtection middleware
+2018-07-31 17:48:36,101 INFO 2727 [egg-security] use xframe middleware
+2018-07-31 17:48:36,101 INFO 2727 [egg-security] use dta middleware
+2018-07-31 17:48:36,101 INFO 2727 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:48:36,112 INFO 2727 [egg:core] dump config after load, 6ms
+2018-07-31 17:48:36,129 INFO 2727 [egg-watcher:app] watcher start success
+2018-07-31 17:48:36,134 INFO 2727 [egg:core] dump config after ready, 3ms
+2018-07-31 17:48:36,735 INFO 2728 [egg:logger] init all loggers with options: {"dir":"/Users/wanglulu/Desktop/website/h5-editor/server/logs/server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-07-31 17:48:36,774 INFO 2728 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-07-31 17:48:36,774 INFO 2728 [egg-schedule]: register schedule /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-07-31 17:48:36,814 INFO 2728 [egg-static] starting static serve /public/ -> /Users/wanglulu/Desktop/website/h5-editor/server/app/public
+2018-07-31 17:48:36,816 INFO 2728 [egg-security] use csrf middleware
+2018-07-31 17:48:36,817 INFO 2728 [egg-security] use methodnoallow middleware
+2018-07-31 17:48:36,817 INFO 2728 [egg-security] use noopen middleware
+2018-07-31 17:48:36,818 INFO 2728 [egg-security] use nosniff middleware
+2018-07-31 17:48:36,818 INFO 2728 [egg-security] use xssProtection middleware
+2018-07-31 17:48:36,819 INFO 2728 [egg-security] use xframe middleware
+2018-07-31 17:48:36,819 INFO 2728 [egg-security] use dta middleware
+2018-07-31 17:48:36,819 INFO 2728 [egg-security] compose 7 middlewares into one security middleware
+2018-07-31 17:48:36,831 INFO 2728 [egg:core] dump config after load, 8ms
+2018-07-31 17:48:36,843 INFO 2728 [egg-watcher:app] watcher start success
+2018-07-31 17:48:36,847 INFO 2728 [egg:core] dump config after ready, 3ms
+2018-08-01 07:02:41,280 INFO 2728 [egg-logrotator] clean all log before 31 days
+2018-08-01 07:02:41,280 INFO 2728 [-/127.0.0.1/-/295ms SCHEDULE /__schedule?path=/Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 295ms
+2018-08-01 07:02:42,038 INFO 2728 [egg-logrotator] broadcast log-reload
+2018-08-01 07:02:42,038 INFO 2728 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/common-error.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/common-error.log.2018-07-31","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/server-web.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/server-web.log.2018-07-31","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-web.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-web.log.2018-07-31","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-schedule.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-schedule.log.2018-07-31","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-agent.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-agent.log.2018-07-31"]
+2018-08-01 07:02:42,038 INFO 2728 [-/127.0.0.1/-/50ms SCHEDULE /__schedule?path=/Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 50ms

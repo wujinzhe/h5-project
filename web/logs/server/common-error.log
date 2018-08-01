@@ -1,0 +1,9 @@
+2018-08-01 11:10:33,617 ERROR 3485 nodejs.ClusterClientNoResponseError: client no response in 2291601ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wanglulu/Desktop/website/h5-editor/server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:466:11)
+    at tryOnTimeout (timers.js:304:5)
+    at Timer.listOnTimeout (timers.js:267:5)
+name: "ClusterClientNoResponseError"
+pid: 3485
+hostname: zhangwenhaodeiMac.local
+

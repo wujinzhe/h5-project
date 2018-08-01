@@ -1,0 +1,11 @@
+<html>
+  <head>
+    <title>{{pageInfo.title}}</title>
+  </head>
+  <body>
+    <h3>{{pageInfo.content}}</h3>
+    <div>
+        <button>{{pageInfo.buttonInfo.text}}</button>
+    </div>
+  </body>
+</html>

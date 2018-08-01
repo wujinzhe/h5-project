@@ -1,0 +1,36 @@
+2018-07-27 17:16:05,865 INFO 23994 [egg-logrotator] app logger reload: got log-reload message
+2018-07-27 18:14:26,474 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-27 19:15:17,628 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-27 19:15:17,628 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-27 20:16:27,985 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-27 21:17:00,007 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-27 21:17:00,007 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-27 22:17:51,238 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-27 23:19:02,092 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-27 23:19:02,092 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 00:19:52,263 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-28 00:19:52,263 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 01:20:42,955 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 02:21:34,045 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 03:22:25,102 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 04:23:16,034 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-28 04:23:16,034 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 05:25:46,414 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-28 05:25:46,415 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 06:26:37,384 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 07:27:28,388 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 08:28:19,281 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-28 08:28:19,281 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 09:29:10,194 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 10:30:01,558 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 11:31:12,533 WARN 23994 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-07-28 11:31:12,533 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 12:32:03,751 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 13:32:54,669 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 14:33:45,491 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 15:04:41,005 WARN 23994 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-07-28 20:28:15,712 INFO 23994 [egg-logrotator] clean all log before 31 days
+2018-07-28 20:28:15,713 INFO 23994 [-/127.0.0.1/-/198ms SCHEDULE /__schedule?path=/Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js&type=worker&cron=0%200%20*%20*%20*] [egg-schedule] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 197ms
+2018-07-28 20:28:16,365 INFO 23994 [egg-logrotator] broadcast log-reload
+2018-07-28 20:28:16,366 INFO 23994 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/common-error.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/common-error.log.2018-07-27","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/server-web.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/server-web.log.2018-07-27","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-web.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-web.log.2018-07-27","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-schedule.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-schedule.log.2018-07-27","/Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-agent.log -> /Users/wanglulu/Desktop/website/h5-editor/server/logs/server/egg-agent.log.2018-07-27"]
+2018-07-28 20:28:16,366 INFO 23994 [-/127.0.0.1/-/73ms SCHEDULE /__schedule?path=/Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js&type=worker&cron=1%200%200%20*%20*%20*] [egg-schedule] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 73ms

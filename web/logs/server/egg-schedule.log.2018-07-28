@@ -1,0 +1,10 @@
+2018-07-28 23:59:59,551 INFO 23881 [1532793599508402952401576162] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2018-07-28 23:59:59,553 INFO 23881 [Timer] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-07-30 00:00:00.000
+2018-07-28 23:59:59,600 INFO 23994 [1532793599508402952401576162] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2018-07-28 23:59:59,600 INFO 23994 [1532793599508402952401576162] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2018-07-28 23:59:59,621 INFO 23994 [1532793599508402952401576162] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 21ms
+2018-07-29 00:00:00,581 INFO 23881 [1532793600499402953473967192] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2018-07-29 00:00:00,584 INFO 23881 [Timer] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-07-30 00:00:01.000
+2018-07-29 00:00:00,594 INFO 23994 [1532793600499402953473967192] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2018-07-29 00:00:00,594 INFO 23994 [1532793600499402953473967192] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2018-07-29 00:00:00,596 INFO 23994 [1532793600499402953473967192] /Users/wanglulu/Desktop/website/h5-editor/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 2ms
