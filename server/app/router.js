@@ -9,6 +9,7 @@ module.exports = app => {
   // console.log('app', app)
   // console.log('app', app.controller)
   router.get('/news', controller.news.list)
-  router.get('/files', controller.files.create)
+  router.get('/files', controller.files.files)
+  router.post('/create', controller.files.create)
 };
 

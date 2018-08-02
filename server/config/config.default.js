@@ -14,6 +14,15 @@ module.exports = appInfo => {
     }
   }
 
+  config.mongoose = {
+    client: {
+      url: 'mongodb://localhost:27017/h5-edit',
+      options: {
+        useNewUrlParser: true
+      }
+    }
+  }
+
   // add your config here
   config.middleware = [];
 
