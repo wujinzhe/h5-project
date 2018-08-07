@@ -15,10 +15,10 @@ module.exports = appInfo => {
   }
 
   config.mongoose = {
-    client: {
-      url: 'mongodb://localhost:27017/h5-edit',
-      options: {
-        useNewUrlParser: true
+    clients: {
+      db1: {
+        url: 'mongodb://localhost:27017/h5-edit',
+        option: { useNewUrlParser: true}
       }
     }
   }
@@ -28,3 +28,8 @@ module.exports = appInfo => {
 
   return config;
 };
+
+// exports.mongoose = {
+//   url: 'mongodb://localhost:27017/h5-edit',
+//   options: {}
+// }

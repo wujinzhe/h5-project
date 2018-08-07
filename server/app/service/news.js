@@ -2,18 +2,21 @@
  * @Author: ll.wang
  * @Date: 2018-07-26 14:09:11 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-07-30 16:01:50
+ * @Last Modified time: 2018-08-07 18:45:02
  */
 const Service = require('egg').Service
 
+// const mongoose = require('mongoose')
+
 class NewService extends Service {
+
+
   async list() {
-    const newsList = [
-      {id: 1, title: 'this is news 1', url: '/news/1'},
-      {id: 2, title: 'this is news 2', url: '/news/2'}
-    ]
+    console.log('app.config.mongoose.url', this.ctx)
+    const newsList = this.ctx
     return newsList
   }
+  
 }
 
 module.exports = NewService

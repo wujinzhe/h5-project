@@ -10,6 +10,7 @@ class FilesController extends Controller {
     const request = this.ctx.request
     console.log('request', request)
   }
+  
   async create () {
     const request = this.ctx.request
     const response = this.ctx.response
