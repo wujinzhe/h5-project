@@ -13,7 +13,7 @@ module.exports = app => {
     user: {type: String},
   })
 
-  const myModel = mongoose.model('Users', UserSchema) 
+  const myModel = mongoose.model('User', UserSchema) 
 
-  return conn.model('Users', UserSchema)
+  return conn.model('User', UserSchema)
 }

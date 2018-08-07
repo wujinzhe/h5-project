@@ -8,7 +8,7 @@ const Controller = require('egg').Controller
 
 class NewController extends Controller {
   async list () {
-    const newsList = await this.ctx.model.Users.find({})
+    const newsList = await this.ctx.model.User.find({})
     this.ctx.body = newsList
   }
 }
