@@ -10,10 +10,14 @@ module.exports = app => {
   // const conn = app.mongooseDB.get('db1')
   
   const UserSchema = new Schema({
-    user: {type: String},
+    name: {type: String},
+    mb5Pwd: {type: String},
+    eamil: {type: String},
+    department: {type: String},
+    accessToken: {type: String},
   })
 
-  const myModel = mongoose.model('User', UserSchema) 
+  // const myModel = mongoose.model('User', UserSchema) 
 
   return conn.model('User', UserSchema)
 }
