@@ -15,7 +15,7 @@ class UserController extends Controller {
   }
 
   async register () {
-    const { ctx, service, config } = this;
+    const { ctx, service} = this;
     const userInfo = ctx.request.body
     
     const result = await service.user.userRegister(userInfo.name, userInfo.mb5Pwd, userInfo.email, userInfo.department)
@@ -25,6 +25,20 @@ class UserController extends Controller {
       success: true,
       result: result ? '返回成功' : '失败'
     }
+  }
+
+  async reset () {
+    const { ctx, service} = this;
+    const userInfo = ctx.request.body
+
+    const result = await service.user.userRegister(userInfo.name, userInfo.mb5Pwd, userInfo.email, userInfo.department)
+    console.log('result', result)
+
+    this.ctx.body = {
+      success: true,
+      result: result ? '返回成功' : '失败'
+    }
+
   }
 }
 

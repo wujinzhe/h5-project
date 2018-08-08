@@ -2,7 +2,14 @@ const uuid = require('uuid')
 const Service = require('egg').Service
 
 class UserService extends Service {
-  // 登录
+  /**
+   *
+   *
+   * @param {*} name
+   * @param {*} mb5Pwd
+   * @returns
+   * @memberof UserService
+   */
   login (name, mb5Pwd) {
     // const user = new this.ctx.model.User()
     const user = {
