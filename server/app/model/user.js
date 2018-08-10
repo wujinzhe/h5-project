@@ -11,7 +11,7 @@ module.exports = app => {
   
   const UserSchema = new Schema({
     name: {type: String},
-    mb5Pwd: {type: String},
+    md5Pwd: {type: String},
     eamil: {type: String},
     department: {type: String},
     accessToken: {type: String},

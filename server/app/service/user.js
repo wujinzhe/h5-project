@@ -10,27 +10,34 @@ class UserService extends Service {
    * @returns
    * @memberof UserService
    */
-  login (name, mb5Pwd) {
+  login (name, md5Pwd) {
     // const user = new this.ctx.model.User()
     const user = {
       name: name,
-      mb5Pwd: mb5Pwd
+      md5Pwd: md5Pwd
     }
 
     return this.ctx.model.User.find(user).exec()
   }
 
   // 用户注册
-  userRegister (name, mb5Pwd, email, department) {
+  userRegister (name, md5Pwd, email, department) {
     const user = new this.ctx.model.User()
 
     user.name = name
-    user.mb5Pwd = mb5Pwd
+    user.md5Pwd = md5Pwd
     user.email = email
     user.department = department
     user.accessToken = uuid.v4()
 
     return user.save()
+  }
+
+  // 密码重置
+  pwdReset (id, md5Pwd) {
+    const query = {_id: id}
+    const update = {$set: {md5Pwd: md5Pwd}}
+    return this.ctx.model.User.findByIdAndUpdate(query, update).exec()
   }
 }
 module.exports = UserService

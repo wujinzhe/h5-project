@@ -3,7 +3,7 @@
  * @Author: mikey.zhaopeng 
  * @Date: 2018-08-08 09:50:30 
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-08-08 20:09:51
+ * @Last Modified time: 2018-08-10 14:24:56
  */
 module.exports = app => {
   const { router, controller } = app
