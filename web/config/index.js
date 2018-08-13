@@ -10,15 +10,7 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {
-			'/dev': {
-				target: 'http://localhost:7001', // 测试环境 学习模块地址
-				changeOrigin: true,
-				pathRewrite: {
-					'^/dev': ''
-				}
-      }
-    },
+    proxyTable: {},
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -59,6 +51,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+
     /**
      * Source Maps
      */

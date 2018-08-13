@@ -1,33 +1,21 @@
-# server
+# web
 
+> A Vue.js project
 
+## Build Setup
 
-## QuickStart
+``` bash
+# install dependencies
+npm install
 
-<!-- add docs here for user -->
+# serve with hot reload at localhost:8080
+npm run dev
 
-see [egg docs][egg] for more detail.
+# build for production with minification
+npm run build
 
-### Development
-
-```bash
-$ npm i
-$ npm run dev
-$ open http://localhost:7001/
+# build for production and view the bundle analyzer report
+npm run build --report
 ```
 
-### Deploy
-
-```bash
-$ npm start
-$ npm stop
-```
-
-### npm scripts
-
-- Use `npm run lint` to check code style.
-- Use `npm test` to run unit test.
-- Use `npm run autod` to auto detect dependencies upgrade, see [autod](https://www.npmjs.com/package/autod) for more detail.
-
-
-[egg]: https://eggjs.org
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
