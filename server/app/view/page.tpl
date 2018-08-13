@@ -1,11 +1,11 @@
 <html>
   <head>
-    <title>{{pageInfo.title}}</title>
+    <title>{{pageInfo.headerInfo.title}}</title>
   </head>
   <body>
-    <h3>{{pageInfo.content}}</h3>
+    <h3>{{pageInfo.contentHtml}}</h3>
     <div>
-        <button>{{pageInfo.buttonInfo.text}}</button>
+        <button>{{pageInfo.buttonInfo[0].text}}</button>
     </div>
   </body>
 </html>

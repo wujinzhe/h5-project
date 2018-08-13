@@ -1,3 +1,5 @@
+'use strict'
+
 const uuid = require('uuid')
 const Service = require('egg').Service
 
@@ -7,14 +9,14 @@ class UserService extends Service {
    *
    * @param {*} name
    * @param {*} mb5Pwd
-   * @returns
+   * @return
    * @memberof UserService
    */
-  login (name, md5Pwd) {
+  login(name, md5Pwd) {
     // const user = new this.ctx.model.User()
     const user = {
-      name: name,
-      md5Pwd: md5Pwd
+      name,
+      md5Pwd,
     }
 
     return this.ctx.model.User.find(user).exec()
@@ -27,10 +29,10 @@ class UserService extends Service {
    * @param {*} md5Pwd
    * @param {*} email
    * @param {*} department
-   * @returns
+   * @return
    * @memberof UserService
    */
-  userRegister (name, md5Pwd, email, department) {
+  userRegister(name, md5Pwd, email, department) {
     const user = new this.ctx.model.User()
 
     user.name = name
@@ -41,17 +43,17 @@ class UserService extends Service {
 
     return user.save()
   }
-/**
+  /**
  * 密码重置
  *
  * @param {*} id
  * @param {*} md5Pwd
- * @returns
+ * @return
  * @memberof UserService
  */
-pwdReset (id, md5Pwd) {
-    const query = {_id: id}
-    const update = {$set: {md5Pwd: md5Pwd}}
+  pwdReset(id, md5Pwd) {
+    const query = { _id: id }
+    const update = { $set: { md5Pwd } }
     return this.ctx.model.User.findByIdAndUpdate(query, update).exec()
   }
 }

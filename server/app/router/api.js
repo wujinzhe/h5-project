@@ -1,9 +1,9 @@
 'use strict'
 /*
- * @Author: mikey.zhaopeng 
- * @Date: 2018-08-08 09:50:30 
+ * @Author: mikey.zhaopeng
+ * @Date: 2018-08-08 09:50:30
  * @Last Modified by: mikey.zhaopeng
- * @Last Modified time: 2018-08-11 17:35:52
+ * @Last Modified time: 2018-08-13 17:56:50
  */
 module.exports = app => {
   const { router, controller } = app
@@ -17,5 +17,6 @@ module.exports = app => {
 
   // 文档操作
   router.post('/doc/create', document.create) // 生成html文件
-  
+  router.post('/doc/edit', document.create) // 编辑html文件
+
 }
