@@ -1,6 +1,10 @@
 <template>
   <div class="editor-edit">
     <div class="editor-edit__head">
+      <div class="editor-edit__head__info">
+        <Icon type="ios-person"/>
+        奥巴马打地鼠
+      </div>
     </div>
     <div class="editor-edit__body">
       <div class="editor-edit__body__content">
@@ -10,12 +14,21 @@
 
       </div>
       <Modal
-        v-model="modal1"
-        title="Common Modal dialog box title"
+        class="editor-edit__code-modal"
+        :mask-closable="false"
+        width="900"
+        v-model="codeModal"
+        title="网页源代码"
         >
-        <p>Content of dialog</p>
-        <p>Content of dialog</p>
-        <p>Content of dialog</p>
+        <codemirror
+          ref="myCm"
+          :value="content"
+          @input="codemirrorInput">
+        </codemirror>
+        <div slot="footer">
+          <Button type="primary" class="btn-white" @click="codeModalCancel">取消</Button>
+          <Button type="primary" @click="codeModalOk">确定</Button>
+        </div>
       </Modal>
     </div>
   </div>
@@ -23,6 +36,8 @@
 
 <script>
 import mce from '@tinymce/tinymce-vue'
+import 'codemirror/mode/xml/xml.js'
+import 'codemirror/theme/monokai.css'
 
 export default {
   name: 'edit',
@@ -32,30 +47,62 @@ export default {
   data () {
     return {
       content: '',
+      codeContent: '',
+      editor: null,
       mceConfig: {
-        plugins: 'table image imagetools textcolor link code',
+        plugins: 'table image imagetools textcolor',
         menubar: false,
-        toolbar: 'newdocument | undo redo | bold italic underline | fontsizeselect | outdent indent | table | link image | forecolor backcolor | mybutton | code',
+        toolbar: 'newdocument | undo redo | bold italic underline | fontsizeselect | outdent indent | table | myLink image | forecolor backcolor | myCode ',
         statusbar: false,
         language_url: '/static/zh_CN.js',
         setup: (editor) => {
-          editor.addButton('mybutton', {
+          this.editor = editor
+          editor.addButton('myCode', {
+            text: '',
+            icon: 'code',
+            tooltip: '源代码',
+            onclick: () => {
+              this.codeModal = true
+            }
+          })
+
+          editor.addButton('myLink', {
             text: '',
             icon: 'link',
+            tooltip: '链接',
             onclick: () => {
-              this.modal1 = true
+              this.codeModal = true
             }
           })
         }
       },
-      modal1: false
+      codeModal: false
+    }
+  },
+  computed: {
+    codemirror () {
+      return this.$refs.myCm.codemirror
     }
   },
   methods: {
     editorLinkClick () {
-      this.modal1 = true
+      this.codeModal = true
       this.$Modal.success('啦啦啦')
       console.log('111')
+    },
+    codemirrorInput (code) {
+      this.codeContent = code
+    },
+    /** 【HTML代码】弹窗确认 */
+    codeModalOk () {
+      this.codeModal = false
+      this.content = this.codeContent
+      this.codeContent = ''
+    },
+    /** 【HTML代码】弹窗取消 */
+    codeModalCancel () {
+      this.codeModal = false
+      this.codeContent = ''
     }
   }
 }
@@ -69,6 +116,16 @@ export default {
     &__head {
       height: 50px;
       background-color: #ff9800;
+
+      /* 用户信息 (editor-edit__head__info) */
+      &__info {
+        color: #ffffff;
+        font-weight: 900;
+        font-size: 16px;
+        float: right;
+        line-height: 50px;
+        margin-right: 50px;
+      }
     }
 
     /* body (editor-edit__body) */
@@ -89,6 +146,10 @@ export default {
         height: 100%;
         border-left: 1px solid #ccc;
       }
+    }
+
+    &__code-modal {
+      width: 800px;
     }
   }
 
