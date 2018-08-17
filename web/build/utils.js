@@ -29,6 +29,34 @@ exports.cssLoaders = function (options) {
     }
   }
 
+  function lessResourceLoader () {
+    var loaders = [
+      cssLoader,
+      {
+        loader: 'less-loader',
+        options: {
+          javascriptEnabled: true
+        }
+      },
+      {
+        loader: 'sass-resources-loader',
+        options: {
+          resources: [
+            path.resolve(__dirname, '../src/theme/default/default.less')
+          ]
+        }
+      }
+    ]
+    if (options.extract) {
+      return ExtractTextPlugin.extract({
+        use: loaders,
+        fallback: 'vue-style-loader'
+      })
+    } else {
+      return ['vue-style-loader'].concat(loaders)
+    }
+  }
+
   // generate loader string to be used with extract text plugin
   function generateLoaders (loader, loaderOptions) {
     const loaders = options.usePostCSS ? [cssLoader, postcssLoader] : [cssLoader]
@@ -58,7 +86,7 @@ exports.cssLoaders = function (options) {
   return {
     css: generateLoaders(),
     postcss: generateLoaders(),
-    less: generateLoaders('less', {javascriptEnabled: true}),
+    less: lessResourceLoader(),
     sass: generateLoaders('sass', { indentedSyntax: true }),
     scss: generateLoaders('sass'),
     stylus: generateLoaders('stylus'),

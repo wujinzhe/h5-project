@@ -1,11 +1,10 @@
 export default {
   state: {
-    name: 'name'
+    editor: null
   },
   mutations: {
-    setName (state, name) {
-      console.log('ddd')
-      state.name = name
+    initEditor (state, editor) {
+      state.editor = editor
     }
   }
 }

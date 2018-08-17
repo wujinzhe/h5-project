@@ -7,103 +7,57 @@
       </div>
     </div>
     <div class="editor-edit__body">
-      <div class="editor-edit__body__content">
-        <mce v-model="content" :init="mceConfig"></mce>
+      <div class="editor-edit__body__control">
+        <div class="editor-edit__body__control__head">
+          组件
+        </div>
+        <control-list></control-list>
       </div>
-      <div class="editor-edit__body__side">
+      <div class="editor-edit__body__content">
+        <!-- <tinymce v-model="content"></tinymce> -->
+        <div class="editor-bar">
+          <tool-bar></tool-bar>
+        </div>
+        <div class="editor-content" contenteditable="true" ref="editor">
+          <div style="width: 200px;margin: auto;">
+            <com-item></com-item>
+          </div>
+          <br>
+        </div>
+      </div>
+      <div class="editor-edit__body__attr">
 
       </div>
-      <Modal
-        class="editor-edit__code-modal"
-        :mask-closable="false"
-        width="900"
-        v-model="codeModal"
-        title="网页源代码"
-        >
-        <codemirror
-          ref="myCm"
-          :value="content"
-          @input="codemirrorInput">
-        </codemirror>
-        <div slot="footer">
-          <Button type="primary" class="btn-white" @click="codeModalCancel">取消</Button>
-          <Button type="primary" @click="codeModalOk">确定</Button>
-        </div>
-      </Modal>
     </div>
   </div>
 </template>
 
 <script>
-import mce from '@tinymce/tinymce-vue'
-import 'codemirror/mode/xml/xml.js'
-import 'codemirror/theme/monokai.css'
+import tinymce from '@/components/tinymce/index.vue'
+import comItem from '@/components/comItem/index.vue'
+import controlList from '@/components/controlList/index.vue'
+import toolBar from '@/components/editorToolBar/index.vue'
 
 export default {
   name: 'edit',
   components: {
-    mce
+    tinymce,
+    comItem,
+    controlList,
+    toolBar
   },
   data () {
     return {
-      content: '',
-      codeContent: '',
-      editor: null,
-      mceConfig: {
-        plugins: 'table image imagetools textcolor',
-        menubar: false,
-        toolbar: 'newdocument | undo redo | bold italic underline | fontsizeselect | outdent indent | table | myLink image | forecolor backcolor | myCode ',
-        statusbar: false,
-        language_url: '/static/zh_CN.js',
-        setup: (editor) => {
-          this.editor = editor
-          editor.addButton('myCode', {
-            text: '',
-            icon: 'code',
-            tooltip: '源代码',
-            onclick: () => {
-              this.codeModal = true
-            }
-          })
-
-          editor.addButton('myLink', {
-            text: '',
-            icon: 'link',
-            tooltip: '链接',
-            onclick: () => {
-              this.codeModal = true
-            }
-          })
-        }
-      },
-      codeModal: false
-    }
-  },
-  computed: {
-    codemirror () {
-      return this.$refs.myCm.codemirror
+      content: '<p>11</p>'
     }
   },
   methods: {
-    editorLinkClick () {
-      this.codeModal = true
-      this.$Modal.success('啦啦啦')
-      console.log('111')
-    },
-    codemirrorInput (code) {
-      this.codeContent = code
-    },
-    /** 【HTML代码】弹窗确认 */
-    codeModalOk () {
-      this.codeModal = false
-      this.content = this.codeContent
-      this.codeContent = ''
-    },
-    /** 【HTML代码】弹窗取消 */
-    codeModalCancel () {
-      this.codeModal = false
-      this.codeContent = ''
+    itemClick () {
+      this.$store.state.app.editor.insertContent('<p>啦啦啦</p>')
     }
+  },
+  mounted () {
+    console.log(this.$refs.editor)
   }
 }
 </script>
@@ -140,17 +94,41 @@ export default {
         // background-color: rgba(255, 152, 0, 0.04);
       }
 
+      /* 组件侧边栏区 (editor-edit__body__side) */
+      &__control {
+        width: 200px;
+        height: 100%;
+        border-right: 1px solid #ccc;
+
+        &__head {
+          height: 34px;
+          border-bottom: 1px solid #ccc;
+          text-align:center;
+          font-size: 17px;
+          line-height: 34px;
+        }
+      }
+
       /* 属性侧边栏区 (editor-edit__body__side) */
-      &__side {
+      &__attr {
         width: 400px;
         height: 100%;
         border-left: 1px solid #ccc;
       }
     }
+  }
 
-    &__code-modal {
-      width: 800px;
-    }
+  .editor-bar {
+    border-bottom: 1px solid #ccc;
+    height: 34px;
+  }
+
+  .editor-content {
+    height: 667px;
+    width: 375px;
+    border: 1px solid #ccc;
+    margin:20px auto;
+    outline: none;
   }
 
 </style>
