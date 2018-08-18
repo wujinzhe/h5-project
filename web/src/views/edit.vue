@@ -18,12 +18,7 @@
         <div class="editor-bar">
           <tool-bar></tool-bar>
         </div>
-        <div class="editor-content" contenteditable="true" ref="editor">
-          <div style="width: 200px;margin: auto;">
-            <com-item></com-item>
-          </div>
-          <br>
-        </div>
+        <editor-content></editor-content>
       </div>
       <div class="editor-edit__body__attr">
 
@@ -37,6 +32,7 @@ import tinymce from '@/components/tinymce/index.vue'
 import comItem from '@/components/comItem/index.vue'
 import controlList from '@/components/controlList/index.vue'
 import toolBar from '@/components/editorToolBar/index.vue'
+import editorContent from '@/editor/content/content.vue'
 
 export default {
   name: 'edit',
@@ -44,7 +40,8 @@ export default {
     tinymce,
     comItem,
     controlList,
-    toolBar
+    toolBar,
+    editorContent
   },
   data () {
     return {
@@ -52,12 +49,6 @@ export default {
     }
   },
   methods: {
-    itemClick () {
-      this.$store.state.app.editor.insertContent('<p>啦啦啦</p>')
-    }
-  },
-  mounted () {
-    console.log(this.$refs.editor)
   }
 }
 </script>
@@ -122,13 +113,4 @@ export default {
     border-bottom: 1px solid #ccc;
     height: 34px;
   }
-
-  .editor-content {
-    height: 667px;
-    width: 375px;
-    border: 1px solid #ccc;
-    margin:20px auto;
-    outline: none;
-  }
-
 </style>

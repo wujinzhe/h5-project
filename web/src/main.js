@@ -8,7 +8,7 @@ import store from '@/store/'
 import controlButton from '@/components/base/control-button.vue'
 import toolbarButton from '@/components/base/toolbar-button.vue'
 import VueCodemirror from 'vue-codemirror'
-
+import '@/assets/less/index.less'
 import './theme/default/default.less'
 import 'codemirror/lib/codemirror.css'
 // require active-line.js
